@@ -16,7 +16,7 @@ const services = [
     icon: Settings,
     title: "Electrical Panel Upgrades",
     slug: "electrical-panel-upgrade",
-    img: "/manus-storage/service_panel_b93b0b50.jpg",
+    img: "/assets/images/service_panel_b93b0b50.jpg",
     summary: "Upgrade your home's electrical service to 200 amps for modern power demands.",
     details: [
       "200-amp service upgrades from 60 or 100 amp",
@@ -31,7 +31,7 @@ const services = [
     icon: HomeIcon,
     title: "Residential Rewiring",
     slug: "residential-rewiring",
-    img: "/manus-storage/service_wiring_b3ead629.jpg",
+    img: "/assets/images/service_wiring_b3ead629.jpg",
     summary: "Complete rewiring for older Bedford-area homes — safe, code-compliant, and done right.",
     details: [
       "Knob-and-tube wiring replacement",
@@ -46,7 +46,7 @@ const services = [
     icon: Lightbulb,
     title: "Recessed Lighting",
     slug: "recessed-lighting",
-    img: "/manus-storage/service_lighting_b4eb0311.jpg",
+    img: "/assets/images/service_lighting_b4eb0311.jpg",
     summary: "Transform any room with professional LED recessed lighting installation.",
     details: [
       "LED recessed can light installation",
@@ -61,7 +61,7 @@ const services = [
     icon: BatteryCharging,
     title: "EV Charger Installation",
     slug: "ev-charger-installation",
-    img: "/manus-storage/service_ev_b289d56e.jpg",
+    img: "/assets/images/service_ev_b289d56e.jpg",
     summary: "Level 2 EV charging station installation for all major electric vehicle brands.",
     details: [
       "Level 2 (240V) EVSE installation",
@@ -76,7 +76,7 @@ const services = [
     icon: Wrench,
     title: "Outlet & Switch Replacement",
     slug: "outlet-switch-replacement",
-    img: "/manus-storage/service_outlets_670327e4.jpg",
+    img: "/assets/images/service_outlets_670327e4.jpg",
     summary: "GFCI outlets, USB outlets, smart switches, and whole-panel outlet upgrades.",
     details: [
       "GFCI outlet installation (kitchen, bath, garage)",
@@ -91,7 +91,7 @@ const services = [
     icon: Zap,
     title: "Generator Installation",
     slug: "generator-installation",
-    img: "/manus-storage/service_panel_b93b0b50.jpg",
+    img: "/assets/images/service_panel_b93b0b50.jpg",
     summary: "Standby and portable generator hookups for New England's unpredictable weather.",
     details: [
       "Automatic standby generator installation",
@@ -106,7 +106,7 @@ const services = [
     icon: Shield,
     title: "Smoke & CO Detector Installation",
     slug: "smoke-co-detector-installation",
-    img: "/manus-storage/service_wiring_b3ead629.jpg",
+    img: "/assets/images/service_wiring_b3ead629.jpg",
     summary: "Hardwired smoke and carbon monoxide detector installation to Massachusetts code.",
     details: [
       "Hardwired smoke detector installation",
@@ -121,7 +121,7 @@ const services = [
     icon: AlertTriangle,
     title: "Electrical Troubleshooting",
     slug: "electrical-troubleshooting",
-    img: "/manus-storage/service_outlets_670327e4.jpg",
+    img: "/assets/images/service_outlets_670327e4.jpg",
     summary: "Diagnose and repair tripping breakers, flickering lights, and electrical faults.",
     details: [
       "Tripping breaker diagnosis and repair",

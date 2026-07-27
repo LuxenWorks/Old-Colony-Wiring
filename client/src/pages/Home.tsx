@@ -14,12 +14,12 @@ const fadeUp = {
 };
 
 const services = [
-  { icon: Settings, title: "Electrical Panel Upgrades", desc: "200-amp service upgrades, breaker replacements, and load center installations for modern homes.", href: "/services/electrical-panel-upgrade", img: "/manus-storage/service_panel_b93b0b50.jpg" },
-  { icon: HomeIcon, title: "Residential Rewiring", desc: "Complete rewiring of older homes, knob-and-tube replacement, and code compliance upgrades.", href: "/services/residential-rewiring", img: "/manus-storage/service_wiring_b3ead629.jpg" },
-  { icon: Lightbulb, title: "Recessed Lighting", desc: "LED recessed light installation, dimmer switches, and whole-home lighting upgrades.", href: "/services/recessed-lighting", img: "/manus-storage/service_lighting_b4eb0311.jpg" },
-  { icon: BatteryCharging, title: "EV Charger Installation", desc: "Level 2 EV charging station installation for all major electric vehicle brands.", href: "/services/ev-charger-installation", img: "/manus-storage/service_ev_b289d56e.jpg" },
-  { icon: Wrench, title: "Outlet & Switch Replacement", desc: "GFCI outlets, USB outlets, smart switches, and whole-panel outlet upgrades.", href: "/services/outlet-switch-replacement", img: "/manus-storage/service_outlets_670327e4.jpg" },
-  { icon: Zap, title: "Generator Installation", desc: "Standby and portable generator hookups, transfer switches, and emergency power systems.", href: "/services/generator-installation", img: "/manus-storage/service_panel_b93b0b50.jpg" },
+  { icon: Settings, title: "Electrical Panel Upgrades", desc: "200-amp service upgrades, breaker replacements, and load center installations for modern homes.", href: "/services/electrical-panel-upgrade", img: "/assets/images/service_panel_b93b0b50.jpg" },
+  { icon: HomeIcon, title: "Residential Rewiring", desc: "Complete rewiring of older homes, knob-and-tube replacement, and code compliance upgrades.", href: "/services/residential-rewiring", img: "/assets/images/service_wiring_b3ead629.jpg" },
+  { icon: Lightbulb, title: "Recessed Lighting", desc: "LED recessed light installation, dimmer switches, and whole-home lighting upgrades.", href: "/services/recessed-lighting", img: "/assets/images/service_lighting_b4eb0311.jpg" },
+  { icon: BatteryCharging, title: "EV Charger Installation", desc: "Level 2 EV charging station installation for all major electric vehicle brands.", href: "/services/ev-charger-installation", img: "/assets/images/service_ev_b289d56e.jpg" },
+  { icon: Wrench, title: "Outlet & Switch Replacement", desc: "GFCI outlets, USB outlets, smart switches, and whole-panel outlet upgrades.", href: "/services/outlet-switch-replacement", img: "/assets/images/service_outlets_670327e4.jpg" },
+  { icon: Zap, title: "Generator Installation", desc: "Standby and portable generator hookups, transfer switches, and emergency power systems.", href: "/services/generator-installation", img: "/assets/images/service_panel_b93b0b50.jpg" },
 ];
 
 const trustBadges = [
@@ -60,7 +60,7 @@ export default function Home() {
         {/* Background image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/manus-storage/hero_bg_415d0334.jpg')" }}
+          style={{ backgroundImage: "url('/assets/images/hero_bg_415d0334.jpg')" }}
         />
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0F1A30]/90 via-[#1B2A4A]/80 to-[#1B2A4A]/50" />
@@ -256,7 +256,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="relative">
               <img
-                src="/manus-storage/about_team_4d654f33.jpg"
+                src="/assets/images/about_team_4d654f33.jpg"
                 alt="Old Colony Wiring team in Bedford MA"
                 className="rounded-2xl w-full object-cover shadow-2xl"
                 loading="lazy"
@@ -398,7 +398,7 @@ export default function Home() {
         className="relative py-24 overflow-hidden"
         style={{ background: "linear-gradient(135deg, #1B2A4A 0%, #0F1A30 100%)" }}
       >
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('/manus-storage/cta_bg_7e67ca2b.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('/assets/images/cta_bg_7e67ca2b.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={{ visible: { transition: { staggerChildren: 0.1 } } }}>
             <motion.p variants={fadeUp} className="section-label mb-3">Ready to Get Started?</motion.p>

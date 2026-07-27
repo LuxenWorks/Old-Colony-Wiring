@@ -18,7 +18,7 @@ const posts = [
     excerpt: "Is your home's electrical panel keeping up with modern power demands? Here are the warning signs Bedford homeowners should never ignore.",
     date: "June 15, 2025",
     readTime: "5 min read",
-    img: "/manus-storage/service_panel_b93b0b50.jpg",
+    img: "/assets/images/service_panel_b93b0b50.jpg",
     category: "Panel Upgrades",
   },
   {
@@ -27,7 +27,7 @@ const posts = [
     excerpt: "Everything you need to know about installing a Level 2 EV charger at your Bedford home — costs, permits, and what to expect.",
     date: "May 28, 2025",
     readTime: "7 min read",
-    img: "/manus-storage/service_ev_b289d56e.jpg",
+    img: "/assets/images/service_ev_b289d56e.jpg",
     category: "EV Charging",
   },
   {
@@ -36,7 +36,7 @@ const posts = [
     excerpt: "Many older New England homes still have knob-and-tube wiring. Here's why it's a problem and what your options are.",
     date: "April 10, 2025",
     readTime: "6 min read",
-    img: "/manus-storage/service_wiring_b3ead629.jpg",
+    img: "/assets/images/service_wiring_b3ead629.jpg",
     category: "Rewiring",
   },
   {
@@ -45,7 +45,7 @@ const posts = [
     excerpt: "A detailed breakdown of recessed lighting installation costs in Bedford and surrounding Middlesex County towns.",
     date: "March 5, 2025",
     readTime: "4 min read",
-    img: "/manus-storage/service_lighting_b4eb0311.jpg",
+    img: "/assets/images/service_lighting_b4eb0311.jpg",
     category: "Lighting",
   },
   {
@@ -54,7 +54,7 @@ const posts = [
     excerpt: "Massachusetts requires permits for most electrical work. Here's what requires a permit, how to get one, and why you should never skip it.",
     date: "February 18, 2025",
     readTime: "5 min read",
-    img: "/manus-storage/service_outlets_670327e4.jpg",
+    img: "/assets/images/service_outlets_670327e4.jpg",
     category: "Permits & Code",
   },
   {
@@ -63,7 +63,7 @@ const posts = [
     excerpt: "Winter storms, nor'easters, and ice storms make power outages a fact of life in Massachusetts. Here's how to protect your home.",
     date: "January 22, 2025",
     readTime: "6 min read",
-    img: "/manus-storage/about_team_4d654f33.jpg",
+    img: "/assets/images/about_team_4d654f33.jpg",
     category: "Generators",
   },
 ];

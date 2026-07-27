@@ -1,17 +1,9 @@
-export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
+// Site-wide constants for Old Colony Wiring
+// No Manus-specific dependencies
 
-// Generate login URL at runtime so redirect URI reflects the current origin.
-export const getLoginUrl = () => {
-  const oauthPortalUrl = import.meta.env.VITE_OAUTH_PORTAL_URL;
-  const appId = import.meta.env.VITE_APP_ID;
-  const redirectUri = `${window.location.origin}/api/oauth/callback`;
-  const state = btoa(redirectUri);
-
-  const url = new URL(`${oauthPortalUrl}/app-auth`);
-  url.searchParams.set("appId", appId);
-  url.searchParams.set("redirectUri", redirectUri);
-  url.searchParams.set("state", state);
-  url.searchParams.set("type", "signIn");
-
-  return url.toString();
-};
+export const SITE_NAME = "Old Colony Wiring";
+export const SITE_PHONE = "(781) 200-5745";
+export const SITE_PHONE_HREF = "tel:+17812005745";
+export const SITE_EMAIL = "info@oldcolonywiring.com";
+export const SITE_ADDRESS = "26 Wiggins Ave, Bedford, MA 01730";
+export const SITE_HOURS = "Mon–Sat 7am–6pm";

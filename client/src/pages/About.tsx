@@ -49,7 +49,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-              <img src="/manus-storage/about_team_4d654f33.jpg" alt="Old Colony Wiring team" className="rounded-2xl w-full object-cover shadow-2xl" loading="lazy" />
+              <img src="/assets/images/about_team_4d654f33.jpg" alt="Old Colony Wiring team" className="rounded-2xl w-full object-cover shadow-2xl" loading="lazy" />
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={{ visible: { transition: { staggerChildren: 0.1 } } }}>
               <motion.div variants={fadeUp} className="flex items-center gap-2 mb-3">
